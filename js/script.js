@@ -13,7 +13,8 @@ function myButtonClicked() {
   const radius = parseInt(document.getElementById("radius").value)
 
   // process
-  const circumference = 2 * 3.14 * radius
+  const π = 3.14
+  const circumference = 2 * π * radius
 
   // output
   document.getElementById("circumference").innerHTML = "The circumference is " + circumference + "cm"
